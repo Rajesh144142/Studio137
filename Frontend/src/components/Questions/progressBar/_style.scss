@@ -1,0 +1,109 @@
+$width: 0;
+
+.progressbar {
+  & {
+    margin: auto;
+    width:400px;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    font-size: 9px;
+    font-weight: 700;
+    //position: relative;
+    margin-bottom: 50px;
+    color: rgb(173, 172, 172);
+    .textName {
+      & {
+        display: flex;
+        flex-direction: row;
+        .text1 {
+          margin-left: 24px;
+        }
+        .text2 {
+          margin-left: 40px;
+        }
+        .text3 {
+          margin-left: 30px;
+        }
+        .text4 {
+          margin-left: 48px;
+        }
+      }
+    }
+    .percent {
+      font-size: 12px;
+      font-weight: 700;
+      color: rgb(80, 80, 84);
+    }
+    .progressLineFill {
+      & {
+        width: 100%;
+        background-color: rgb(220, 216, 216);
+        height: 3px;
+        left: 0px;
+        display: relative;
+
+        .blank1 {
+          background-color: rgb(247, 243, 243);
+          height: 3px;
+          position: absolute;
+          width: 3px;
+          margin-left:6.5%;
+          //   padding-left: 25%;
+        }
+        .blank2 {
+          background-color: rgb(247, 243, 243);
+          height: 3px;
+          position: absolute;
+          width: 4px;
+          margin-left: 13%;
+          //   padding-left: 25%;
+        }
+        .blank3 {
+          background-color: rgb(247, 243, 243);
+          height: 3px;
+          position: absolute;
+          width: 4px;
+          margin-left: 19.5%;
+          //   padding-left: 25%;
+        }
+
+        .progrssLineFiller {
+          background-color: rgb(81, 34, 120);
+          height: 3px;
+          left: 0px;
+          font-size: 25px;
+          display: flex;
+          flex-direction: row;
+          width: $width;
+        }
+      }
+    }
+    .stage {
+      & {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+
+        .progressLine {
+          & {
+            width: 105px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+        }
+      }
+    }
+
+    .stages {
+      & {
+        display: flex;
+        gap: 50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.all {
+  & {
+    margin: auto;
+    width: 100%;
+    .individual {
+      & {
+        align-items: center;
+        .questionsText{
+          width: 90%;
+          margin: auto;
+          padding-top: 5px;
+          height: 50px;
+          font-size: 14px;
+          font-weight: 600;
+          color: rgb(84, 83, 83);
+          text-align: center;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.questionSection {
+  & {
+    width: 530px;
+    .questionsNoTrack {
+      & {
+        font-size: 12px;
+        font-weight: 700;
+        color: rgb(142, 142, 142);
+        text-align: center;
+        margin-top: 80px;
+      }
+    }
+    .prevBtn {
+      padding-top: 50px;
+      padding-left: 16px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      color: rgb(192, 188, 188);
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      .prevBtnicon {
+        font-size: 18px;
+        padding-top: 3px;
+      }
+      &.prevBtn:hover {
+        color: rgb(166, 163, 163);
+      }
+    }
+  }
+}

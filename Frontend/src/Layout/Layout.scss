@@ -1,0 +1,15 @@
+.setLayout{
+  &{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+.section{
+  &{
+    margin: auto;
+    background-color:white;
+    width: 630px;
+    height: 350px;
+    border-radius: 4px;
+  }
+}}}

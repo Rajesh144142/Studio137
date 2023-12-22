@@ -7,9 +7,9 @@ This project is part of the Studio137 assessment and is built using React.js and
 ## Demo Images
 
 
-![Screenshot](Screenshot(90).png)
-![Screenshot1](Screenshot(91).png)
-![Screenshot2](Screenshot(92).png)
+![Screenshot](assets/Screenshot(90).png)
+![Screenshot1](assets/Screenshot(91).png)
+![Screenshot2](assets/Screenshot(92).png)
 
 
 

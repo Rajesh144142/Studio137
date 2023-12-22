@@ -4,12 +4,9 @@
 
 This project is part of the Studio137 assessment and is built using React.js and SCSS.
 
-## Demo Images
+## Demo Images (Drive Link)
 
-
-![Screenshot](assets/Screenshot(90).png)
-![Screenshot1](assets/Screenshot(91).png)
-![Screenshot2](assets/Screenshot(92).png)
+ [Demo Images Link](https://drive.google.com/drive/folders/1tQfg7gKWD5YlKXvPpTCWo0JyUFER27_9).
 
 
 
